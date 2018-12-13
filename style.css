@@ -1,0 +1,43 @@
+body {
+	background-color: #679FD2;
+	padding: 100px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div {
+	margin-bottom: 20px;
+}
+
+div a {
+	text-decoration: none;
+	color: rgb(85, 26, 139);
+}
+
+div a:focus {
+	outline: none;
+}
+
+div:not(.line):hover {
+	transform: scale(1.1);
+	transition-duration: .3s;
+}
+
+.line {
+	border-bottom: 2px dotted black;
+	width: 5%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.chess {
+	text-transform: lowercase;
+}
+
+.main a {
+	color: black;
+	text-transform: lowercase;
+}
+
+
+
